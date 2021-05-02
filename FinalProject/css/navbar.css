@@ -1,0 +1,106 @@
+
+@media (min-width: 576px) {
+    .header {
+        width: 540px;
+        max-width: 100%;
+    }
+}
+@media (min-width: 576px) {
+        .header {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+}
+@media (min-width: 576px){
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+.row{
+    display: flex;
+}
+.header{
+    display: block;
+    background-color: #FFFFFF;
+    padding: 0.5rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    background: white;
+    border: #57b846;
+}
+.col-lg-4 text-center{
+    vertical-align: center;
+    line-height: 2;
+}
+.button.btn.btn--hollow.hidden-md-up.hidden-lg-up.cc_pointer{
+    border: 1px solid #00A145;
+    color: #00A145;
+    background: transparent;
+}
+#icon{
+    color: #9B9B9B;
+}
+.header__logo {
+    line-height: 38px;
+}
+.header__right-menu {
+    position: relative;
+}
+.list-inline col-md-6 hidden-sm-down{
+    align-items: center;
+}
+.col-8 offset-md-5 offset-lg-0 col-md-4 col-lg-3 header__right-menu{
+    align-items: center;
+}
+#icons:hover {
+    color:red;!important
+}
+parallax {
+    position: relative;
+}
+.section.banner.banner--landing.d-flex.align-items-center.parallax{
+    height: 90vh;
+    background-color: #4A4A4A;
+    background-image: url('/Images/home-bg.jpg');
+}
+.section.banner.banner--landing.d-flex.align-items-center.parallax{
+    background-size: cover;
+    background-color: #FFFFFF;
+    background-position: center;
+}
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.parallax__front {
+    z-index: 1;
+}
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (max-width: 575px){
+    .hero__container {
+        margin-top: -35%;
+    }
+    .mx-auto {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}

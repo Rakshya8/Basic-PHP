@@ -1,0 +1,36 @@
+section.hero.banner.banner--general{
+    background-size: 40%;
+    background: #FAFAFA;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    height: 30%;
+}
+.sticky-filter{
+    position: sticky;
+    top: 53px;
+    z-index: 1;
+    background-color: #FFFFFF;
+    padding-top: 0.4rem;
+}
+@media (max-width: 767px){
+    .filter__item {
+        margin-right: 0;
+        display: block;
+    }
+}
+
+.filter__item {
+    display: inline-block;
+    margin-right: 0.25rem;
+    color: #9B9B9B;
+    position: relative;
+}
+.filter__item .btn  {
+    color: #9B9B9B;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+    width: 120%;
+    border-radius: 0px;
+}
